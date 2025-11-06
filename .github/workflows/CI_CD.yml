@@ -29,5 +29,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ vars.DOCKER_USERNAME }}/iris-classifier-fastapi:latest
+          ${{ vars.DOCKER_USERNAME }}/iris-classifier-fastapi:v2
           ${{ vars.DOCKER_USERNAME }}/iris-classifier-fastapi:${{ github.sha }}
