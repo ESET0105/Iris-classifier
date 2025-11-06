@@ -32,8 +32,8 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ vars.DOCKER_USERNAME }}/Iris-Classifier-fastapi:latest
-          ${{ secrets.DOCKER_USERNAME }}/Iris-Classifier-fastapi:${{ github.sha }}
+          ${{ vars.DOCKER_USERNAME }}/iris-classifier-fastapi:latest
+          ${{ secrets.DOCKER_USERNAME }}/iris-classifier-fastapi:${{ github.sha }}
 
         
     - name: Commit updated deployment.yaml
