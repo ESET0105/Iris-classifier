@@ -35,4 +35,4 @@ jobs:
       run: |
         git add deployment.yaml
         git commit -m "Updated image tag"
-        git push
+        git push 
